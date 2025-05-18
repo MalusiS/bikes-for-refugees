@@ -102,6 +102,7 @@ button {
   text-transform: uppercase;
   cursor: pointer;
   border-radius: 4px;
+  border: none;
 }
 
 button:hover {
@@ -162,7 +163,6 @@ button:hover {
 }
 
 .hero button {
-  border: none;
   padding: 0.5rem 1rem;
   font-size: 1rem;
 }
