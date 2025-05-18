@@ -120,8 +120,23 @@ header {
 /* hero */
 
 .hero {
-  background-image: url("header-bike.jpg");
+  background-image: url(../images/header-bike.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   background-color: var(--grey-light);
+  color: var(--white);
+  display: flex; 
+  flex-direction: column; 
+  justify-content: center;
+  align-items: start; 
+  text-align: left;
+  padding: 2rem 1rem;
+  height: 225px;
+  margin-bottom: 2rem;
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  position: relative;
 }
 
 .hero h1 {
@@ -133,6 +148,28 @@ header {
   font-size: 1.2rem;
   margin-bottom: 2rem;
 }
+
+.hero button {
+  background-color: var(--orange-dark);
+  color: var(--white);
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.hero button:last-of-type {
+  background-color: var(--white);
+  color: var(--orange-dark);
+} 
+
+.hero button:hover {
+  background-color: var(--orange-light);
+  color: var(--grey-dark);
+} 
 
 
 /* Headings */
