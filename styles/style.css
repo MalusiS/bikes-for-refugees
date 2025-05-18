@@ -161,14 +161,19 @@ header {
   border-radius: 4px;
 }
 
+.hero button:hover {
+  background-color: var(--orange-light);
+  color: var(--grey-dark);
+} 
+
 .hero button:last-of-type {
   background-color: var(--white);
   color: var(--orange-dark);
 } 
 
-.hero button:hover {
-  background-color: var(--orange-light);
-  color: var(--grey-dark);
+.hero button:last-of-type:hover {
+  background-color: var(--orange-dark);
+  color: var(--white);
 } 
 
 
