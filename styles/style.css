@@ -95,7 +95,19 @@ header {
 
 /* Buttons */
 
-  /* INSERT BUTTON STYLES HERE */
+button {
+  background-color: var(--orange-dark);
+  color: var(--white);
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: var(--orange-light);
+  color: var(--grey-dark);
+} 
 
 
 /* Content */
@@ -150,21 +162,10 @@ header {
 }
 
 .hero button {
-  background-color: var(--orange-dark);
-  color: var(--white);
   border: none;
   padding: 0.5rem 1rem;
   font-size: 1rem;
-  font-weight: bold;
-  text-transform: uppercase;
-  cursor: pointer;
-  border-radius: 4px;
 }
-
-.hero button:hover {
-  background-color: var(--orange-light);
-  color: var(--grey-dark);
-} 
 
 .hero button:last-of-type {
   background-color: var(--white);
