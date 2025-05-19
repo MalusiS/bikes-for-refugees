@@ -227,6 +227,7 @@ article {
 .article__thumbnail {
   object-fit: contain;
   width: 5rem;
+  margin-right: 2rem;
 }
 
 .article__read-more {
@@ -252,6 +253,7 @@ article {
 
 .facebook-link {
   color: var(--orange-dark);
+  text-align: end;
 }
 
 /* Sidebar */
