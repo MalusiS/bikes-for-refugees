@@ -214,11 +214,20 @@ header button {
   align-items: center; 
 }
 
+.main_articles article:first-of-type {
+  margin-right: 0.55rem;
+} 
+
+.main_articles article:last-of-type {
+  margin-left: 0.55rem;
+}
+
 .main-article {
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: left;
+  font-size: 0.95rem;
   padding: 1rem;
   background-color: var(--white);
   border-radius: 4px;
