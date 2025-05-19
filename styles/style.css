@@ -207,6 +207,25 @@ header button {
 
 /* Article */
 
+.main_articles {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; 
+}
+
+.main-article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+  padding: 1rem;
+  background-color: var(--white);
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+} 
+
 article {
   margin-bottom: 1rem;
 }
